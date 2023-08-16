@@ -1,1 +1,134 @@
-/* asdasdasd */
+body{
+    margin: 0;
+    
+}
+.main{
+    width: 100%;
+    height: 3000px;
+    background-color: black;
+    padding-top: 15px;
+}
+.text_block{
+    width: 368px;
+    height: 253px;
+    padding: 1px;
+   border-radius: 10px;
+    
+    
+}
+.blocks_with_text{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+#block1_big{
+    background: linear-gradient(#5B6978, #FC84FF);
+}
+#block2_big{
+    background: linear-gradient(#5B6978, #54D1FA);
+}
+#block3_big{
+    background: linear-gradient(#5B6978, #A9AAFD);
+}
+.text_block_in_block{
+    width: 368px;
+    height: 253px;
+    background-color: black;
+    border-radius: 10px;
+}
+.img_in_block{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.text_in_block{
+    width: 328px;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;  
+    margin-left: 20px;
+}
+.line{
+    width: 1562px;
+    height: 2px;
+    background-color: #0F1113;
+    margin: auto;
+    margin-top: 70px;
+}
+.big_text{
+    color: #C1ABFF;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin-left: 200px;
+    font-size: 40px;
+}
+.small_text{
+    color: white;
+    display: flex;
+    font-size: 16px;
+    width: 1088px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+.block{
+    width: 71px;
+    height: 186.717px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 210px;
+    border-radius: 10px;
+}
+.text_pod_line{
+    width: 1129px;
+    height: 152px;
+    
+}
+.stolbik_leviy{
+    margin-top: 90px;
+}
+#block1{
+    width: 73px;
+    height: 375.344px;
+    background-color: #F787FF;
+}
+#block2{
+    height: 312.787px;
+    width: 73px;
+    background-color: #CA9BFE;
+}
+#block3{
+    height: 185.717px;
+    width: 73px;
+    background-color: #A6ACFD;
+}
+#block4{
+    height: 144.664px;
+    width: 73px;
+    background-color: #89B9FC;
+}
+#block5{
+    height: 87.971px;
+    width: 73px;
+    background-color: #76C2FB;
+}
+#block6{
+    height: 78.197px;
+    width: 73px;
+    background-color: #68C8FB;
+}
+#block7{
+    height: 57.576px;
+    width: 73px;
+    background-color: #5ECDFB;
+}
+#block8{
+    height: 35.188px;
+    width: 73px;
+    background-color: #54D1FA;
+}
+
