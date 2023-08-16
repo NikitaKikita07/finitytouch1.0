@@ -239,7 +239,22 @@ font-weight: 500;
 line-height: 140%; 
 flex-direction: column-reverse;
 }
-
+.spin{
+    animation-duration: 1s;
+    animation-name: spin;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0px);
+    }
+    50%{
+        transform: rotate(180px);
+    }
+    100%{
+        transform: rotate(360px);
+        
+    }
+}
 
 
 
