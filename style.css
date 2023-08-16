@@ -323,19 +323,33 @@ h1{
     top: 432px;
 }
 .vector2{
-    width: 1010px;
-    height: 536px;
+    width: 672px;
+    height: 356px;
     position: absolute;
     left: -175px;
     top: 538px;
 }
 .vector3{
-    width: 965px;
-    height: 470px;
+    width: 566px;
+    height: 276px;
     position: absolute;
-    
+    top: 343px;
+    right: 1px;
 }
-
+@media screen and (max-width: 1500px) {
+    .vector1{
+        width: calc(160px - (160px / 100 * 20));
+        height: calc(390px - (390px / 100 * 20));
+    }
+    .vector2{
+        width: calc(672px - (672px / 100 * 20));
+        height: calc(356px - (356px / 100 * 20));
+    }
+    .vector3{
+        width: calc(566px - (566px / 100 * 20));
+        height: calc(276px - (276px / 100 * 20));
+    }
+}
 
 
 
