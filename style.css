@@ -162,6 +162,7 @@ line-height: 140%;
     border-radius: 10px;
     margin-top: 30px;
     background: var(--2-g, linear-gradient(120deg, #BDB2FF 0%, #CE8FFF 100%));
+    animation: spin 2s infinite linear;
     }
     .finityblock{
         margin-top: 470px;
@@ -240,22 +241,49 @@ line-height: 140%;
 flex-direction: column-reverse;
 }
 .spin{
-    animation-duration: 1s;
-    animation-name: spin;
+
+    animation: spin 2s infinite;
 }
 @keyframes spin {
-    0%{
-        transform: rotate(0px);
-    }
+    /* 0%{
+   transform: rotate(0px);
+    } */
     50%{
-        transform: rotate(180px);
+        transform: rotate(180deg);
     }
     100%{
-        transform: rotate(360px);
+        transform: rotate(360deg);
         
     }
 }
+/* .circle{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 10px solid rgba(255, 255, 255,.1);
+    border-top: 10px solid #af7777;
+    animation: animate 2s infinite linear;
 
+
+
+}
+@keyframes animate {
+    0%  {
+        transform: translate(-20%, 50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-20%, 50%) rotate(360deg);
+    }
+
+
+
+
+
+
+} */
 
 
 
