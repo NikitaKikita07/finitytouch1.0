@@ -76,7 +76,7 @@ margin-top: 77px;
 .grey_text_small{
     color: #4F6173;
 text-align: center;
-
+}
 
 .hatblock{
     display: inline-flex;
@@ -225,8 +225,11 @@ fill: #4F6173;
     text-align: center;
 }
 .bottom_1 button{
-
-line-height: 140%; 
+    border-radius: 10px;
+    background: var(--2-g, linear-gradient(120deg, #BDB2FF 0%, #CE8FFF 100%));
+    width: 250px;
+    height: 60px;
+    flex-shrink: 0;
 }
 .bitbutton{
 
@@ -367,8 +370,8 @@ margin-left: 11px;
 }
 .drop_text{
     color: #4F6173;
-
-line-height: 140%; 
+    line-height: 140%; 
+    display: none;
 }
 .gamerbutton{
     width: 250px;
