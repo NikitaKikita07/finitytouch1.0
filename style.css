@@ -829,10 +829,10 @@ display: none;
         display: block;
     }
 }
-
+/* 
 line-height: 140%; 
 justify-content: center;
-}
+} */
 .oval{
     display: flex;
     position: absolute;
