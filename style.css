@@ -231,10 +231,8 @@ animation: spin 5s linear infinite;
 
 
 }
-.games{
-    position: absolute;
-    left: -96px;
-    top: 275px;
+/* .games{
+
     color: #FFF;
 text-align: center;
 font-family: Gilroy;
@@ -243,9 +241,19 @@ font-style: normal;
 font-weight: 500;
 line-height: 140%; 
 flex-direction: column-reverse;
+} */
+.gamenew{
+    position: absolute;
+    left: -96px;
+    top: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
 }
 .Marketplace{
-    position: absolute;
+    /* position: absolute;
     display: flex;
     left: -148px;
     top: 147px;
@@ -256,10 +264,18 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 140%; 
-flex-direction: column-reverse;
+flex-direction: column-reverse; */
+position: absolute;
+left: -148px;
+top: 147px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
 }
 .finityskill{
-    position: absolute;
+    /* position: absolute;
     display: flex;
     left: -84px;
     top: -75px;
@@ -271,9 +287,18 @@ font-style: normal;
 font-weight: 500;
 line-height: 140%; 
 flex-direction: column-reverse;
+position: absolute; */
+position: absolute;
+left: -84px;
+top: -75px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
 }
 .token{
-    position: absolute;
+    /* position: absolute;
     display: flex;
     left: 133px;
     top: -141px;
@@ -284,10 +309,18 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 140%; 
-flex-direction: column-reverse;
+flex-direction: column-reverse; */
+position: absolute;
+left: 133px;
+top: -141px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
 }
 .pay{
-    position: absolute;
+    /* position: absolute;
     display: flex;
     left: 325px;
     top: -29px;
@@ -298,10 +331,18 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 140%; 
-flex-direction: column-reverse;
+flex-direction: column-reverse; */
+position: absolute;
+left: 325px;
+top: -29px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
 }
 .peoplex{
-    position: absolute;
+    /* position: absolute;
     display: flex;
     left: 129px;
     top: 336px;
@@ -312,10 +353,18 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 140%; 
-flex-direction: column-reverse;
+flex-direction: column-reverse; */
+position: absolute;
+left: 129px;
+top: 336px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
 }
 .fund{
-    position: absolute;
+    /* position: absolute;
     display: flex;
     left: 321px;
     top: 183px;
@@ -326,7 +375,15 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 140%; 
-flex-direction: column-reverse;
+flex-direction: column-reverse; */
+position: absolute;
+left: 321px;
+top: 183px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
 }
 @keyframes spin {
     0% { transform: rotate(0deg); }
