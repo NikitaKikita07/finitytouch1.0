@@ -162,7 +162,6 @@ line-height: 140%;
     border-radius: 10px;
     margin-top: 30px;
     background: var(--2-g, linear-gradient(120deg, #BDB2FF 0%, #CE8FFF 100%));
-    animation: spin 2s infinite linear;
     }
     .finityblock{
         margin-top: 470px;
@@ -215,6 +214,8 @@ border-radius: 284px;
 border: 39px solid #151D25;
 left: 1035px;
 bottom: 165px;
+animation: spin 5s linear infinite;
+
 }
 .ovaltwo{
     display: flex;
@@ -226,11 +227,14 @@ border-radius: 494px;
 border: 5px solid #151D25;
 left: 970px;
 bottom: 90px;
+animation: spin 5s linear infinite;
+
+
 }
 .games{
-    display: flex;
-    margin-left: -148px;
-    padding-top: 163px;
+    position: absolute;
+    left: -96px;
+    top: 275px;
     color: #FFF;
 text-align: center;
 font-family: Gilroy;
@@ -240,54 +244,94 @@ font-weight: 500;
 line-height: 140%; 
 flex-direction: column-reverse;
 }
-.spin{
-
-    animation: spin 2s infinite;
+.Marketplace{
+    position: absolute;
+    display: flex;
+    left: -148px;
+    top: 147px;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; 
+flex-direction: column-reverse;
+}
+.finityskill{
+    position: absolute;
+    display: flex;
+    left: -84px;
+    top: -75px;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; 
+flex-direction: column-reverse;
+}
+.token{
+    position: absolute;
+    display: flex;
+    left: 133px;
+    top: -141px;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; 
+flex-direction: column-reverse;
+}
+.pay{
+    position: absolute;
+    display: flex;
+    left: 325px;
+    top: -29px;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; 
+flex-direction: column-reverse;
+}
+.peoplex{
+    position: absolute;
+    display: flex;
+    left: 129px;
+    top: 336px;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; 
+flex-direction: column-reverse;
+}
+.fund{
+    position: absolute;
+    display: flex;
+    left: 321px;
+    top: 183px;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; 
+flex-direction: column-reverse;
 }
 @keyframes spin {
-    /* 0%{
-   transform: rotate(0px);
-    } */
-    50%{
-        transform: rotate(180deg);
-    }
-    100%{
-        transform: rotate(360deg);
-        
-    }
-}
-/* .circle{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    border: 10px solid rgba(255, 255, 255,.1);
-    border-top: 10px solid #af7777;
-    animation: animate 2s infinite linear;
-
-
-
-}
-@keyframes animate {
-    0%  {
-        transform: translate(-20%, 50%) rotate(0deg);
-    }
-    100% {
-        transform: translate(-20%, 50%) rotate(360deg);
-    }
-
-
-
-
-
-
-} */
-
-
-
-
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 
 
 
