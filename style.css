@@ -76,6 +76,8 @@ body{
     background: #0F1113;
     display: flex;
     vertical-align: center;
+    position: relative;
+    z-index: 100;
 }
 .linksbox{
     width: 330px;
@@ -340,6 +342,41 @@ h1{
     top: 343px;
     right: 1px;
 }
+.vector4{
+    width: 254px;
+    height: 254px;
+    position: absolute;
+    top: -14px;
+    left: 101px;
+}
+.vector5{
+    width: 384px;
+    height: 384px;
+    position: absolute;
+    top: 69px;
+    right: -98px;
+}
+.vector6{
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    top: 285px;
+    left: 414px;
+}
+.vector7{
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 321px;
+    right: 492px;
+}
+.vector8{
+    width: 329px;
+    height: 329px;
+    position: absolute;
+    top: 350px;
+    right: -168px;
+}
 @media screen and (max-width: 1500px) {
     .vector1{
         width: calc(160px - (160px / 100 * 20));
@@ -352,6 +389,15 @@ h1{
     .vector3{
         width: calc(566px - (566px / 100 * 20));
         height: calc(276px - (276px / 100 * 20));
+    }
+    .vector4{
+        left: -50px;
+    }
+    .vector6{
+        left: 214px;
+    }
+    .vector7{
+        right: 350px;
     }
 }
 @media screen and (max-width: 1300px) {
@@ -381,9 +427,20 @@ h1{
         height: calc(276px - (276px / 100 * 30));
         top: 250px;
     }
+    .vector6, .vector7{
+        display: none;
+    }
+    .vector4{
+        top: 227px;
+        left: -75px;
+    }
+    .vector5{
+        top: -90px;
+        right: -90px;
+    }
 }
-@media screen and (max-width: 720px){
-    .vector2, .vector3{
+@media screen and (max-width: 770px){
+    .vector2, .vector3, .vector4, .vector5{
         display: none;
     }
 }
