@@ -7,6 +7,10 @@ body{
     overflow-x: hidden;
 }
 
+.overflow_y_hidden{
+    overflow-y: hidden;
+}
+
 
 
 /* languages */
@@ -171,7 +175,6 @@ h1{
     background: rgba(0, 0, 0, 0.98);
     z-index: 100;
 }
-
 .langchoose2{
     position: absolute;
     right: 3%;
@@ -350,7 +353,39 @@ h1{
         width: calc(566px - (566px / 100 * 20));
         height: calc(276px - (276px / 100 * 20));
     }
+}
+@media screen and (max-width: 1300px) {
+    .vector1{
+        top: 532px;
+    }
+    .vector2{
+        transform: rotate(-30deg);
+        top: 638px;
+        left: -150px;
+    }
+    .vector3{
+        transform: rotate(-30deg);
+        top: 200px;
+        right: -80px;
+    }
 
+}
+@media screen and (max-width: 1120px){
+    .vector2{
+        width: calc(672px - (672px / 100 * 30));
+        height: calc(356px - (356px / 100 * 30));
+        top: 700px;
+    }
+    .vector3{
+        width: calc(566px - (566px / 100 * 30));
+        height: calc(276px - (276px / 100 * 30));
+        top: 250px;
+    }
+}
+@media screen and (max-width: 720px){
+    .vector2, .vector3{
+        display: none;
+    }
 }
 /* asdasdasd */
 body{
@@ -867,7 +902,6 @@ font-style: normal;
 font-weight: 500;
 line-height: 140%; 
 flex-direction: column-reverse;
-
 }
 
 

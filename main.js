@@ -9,6 +9,19 @@ dmb.addEventListener('click', ()=>{
 })
 
 
+const bodyy = document.querySelector('.body')
+document.addEventListener('click', ()=>{
+  setTimeout(()=>{
+    if (dm.classList.contains('dropmenu-active')){
+      bodyy.classList.add('overflow_y_hidden')
+    }else{
+      bodyy.classList.remove('overflow_y_hidden')
+    }
+  }, 10)
+})
+
+
+
 
 // Language choose
 const langbutton = document.querySelector('.langbutton')
