@@ -231,17 +231,7 @@ animation: spin 5s linear infinite;
 
 
 }
-/* .games{
 
-    color: #FFF;
-text-align: center;
-font-family: Gilroy;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; 
-flex-direction: column-reverse;
-} */
 .gamenew{
     position: absolute;
     left: -96px;
@@ -253,18 +243,7 @@ flex-direction: column-reverse;
     gap: 10px;
 }
 .Marketplace{
-    /* position: absolute;
-    display: flex;
-    left: -148px;
-    top: 147px;
-    color: #FFF;
-text-align: center;
-font-family: Gilroy;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; 
-flex-direction: column-reverse; */
+
 position: absolute;
 left: -148px;
 top: 147px;
@@ -275,19 +254,7 @@ text-align: center;
 gap: 10px;
 }
 .finityskill{
-    /* position: absolute;
-    display: flex;
-    left: -84px;
-    top: -75px;
-    color: #FFF;
-text-align: center;
-font-family: Gilroy;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; 
-flex-direction: column-reverse;
-position: absolute; */
+
 position: absolute;
 left: -84px;
 top: -75px;
@@ -298,18 +265,7 @@ text-align: center;
 gap: 10px;
 }
 .token{
-    /* position: absolute;
-    display: flex;
-    left: 133px;
-    top: -141px;
-    color: #FFF;
-text-align: center;
-font-family: Gilroy;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; 
-flex-direction: column-reverse; */
+
 position: absolute;
 left: 133px;
 top: -141px;
@@ -320,18 +276,7 @@ text-align: center;
 gap: 10px;
 }
 .pay{
-    /* position: absolute;
-    display: flex;
-    left: 325px;
-    top: -29px;
-    color: #FFF;
-text-align: center;
-font-family: Gilroy;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; 
-flex-direction: column-reverse; */
+
 position: absolute;
 left: 325px;
 top: -29px;
@@ -342,18 +287,7 @@ text-align: center;
 gap: 10px;
 }
 .peoplex{
-    /* position: absolute;
-    display: flex;
-    left: 129px;
-    top: 336px;
-    color: #FFF;
-text-align: center;
-font-family: Gilroy;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; 
-flex-direction: column-reverse; */
+
 position: absolute;
 left: 129px;
 top: 336px;
@@ -364,18 +298,8 @@ text-align: center;
 gap: 10px;
 }
 .fund{
-    /* position: absolute;
-    display: flex;
-    left: 321px;
-    top: 183px;
-    color: #FFF;
-text-align: center;
-font-family: Gilroy;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; 
-flex-direction: column-reverse; */
+    width:100px;
+     height:129px;
 position: absolute;
 left: 321px;
 top: 183px;
