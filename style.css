@@ -877,7 +877,7 @@ line-height: 140%;
 }
 .planets{
     position: relative;
-    top: 208px;
+    top: 40px;
     display: block;
 }
 .planex{
@@ -1019,7 +1019,17 @@ color:#ffffff;
 animation: antispin 5s linear infinite;
 }
 .peoplex{
-
+    position: absolute;
+    left: 183px;
+    top: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    color:#ffffff;
+    animation: antispin 5s linear infinite;
+}
 .activelink{
     color: #54D6FF;
 }
@@ -1034,17 +1044,8 @@ animation: antispin 5s linear infinite;
 
  
 
-position: absolute;
-left: 183px;
-top: 336px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-gap: 10px;
-color:#ffffff;
-animation: antispin 5s linear infinite;
-}
+
+
 .fund{
     width:100px;
      height:129px;
