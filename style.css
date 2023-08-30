@@ -80,7 +80,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    margin-left: 210px;
+    margin-left: 196px;
     border-radius: 10px;
 }
 .text_pod_line{
@@ -130,5 +130,65 @@ body{
     height: 35.188px;
     width: 73px;
     background-color: #54D1FA;
+}
+.tochka{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #F787FF;
+    margin-left: 93px;
+    margin-top: 10px;
+    
+}
+#tochka2{
+    background-color: #CA9BFE;
+}
+#tochka3{
+    background-color: #A6ACFD;
+}
+#tochka4{
+    background-color: #89B9FC;    
+}
+#tochka5{
+    background-color: #76C2FB;
+}
+#tochka6{
+    background-color: #68C8FB;
+}
+#tochka7{
+    background-color: #5ECDFB;
+}
+#tochka8{
+    background-color: #54D1FA;
+}
+.text_tochka{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    margin-left: 20px;
+    
+    justify-content: space-between;
+    
+}
+.palka{
+    width: 6px;
+    height: 1226px;
+    background-color: wheat;
+    margin-left: 946px;
+    margin-top: -1300px;
+    border-radius: 17px;
+background: var(--grad-2, linear-gradient(180deg, #FC84FF 0%, #54D1FA 100%));
+align-items: center;
+}
+.krugi{
+    width: 44px;
+    height: 44px;
+    
+    border-radius: 50%;
+    position: absolute;
+    left: 1098px;
+    fill: #0F1113;
+stroke-width: 3px;
+stroke: #F18AFF;
 }
 

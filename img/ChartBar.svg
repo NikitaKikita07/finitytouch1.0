@@ -1,0 +1,9 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ChartBar">
+<path id="Vector" opacity="0.2" d="M41.4062 7.8125H30.4688V40.625H41.4062V7.8125Z" fill="#FC84FF"/>
+<path id="Vector_2" d="M44.5312 40.625H5.46875" stroke="#FC84FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M19.5312 40.625V17.1875H30.4688" stroke="#FC84FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M41.4062 7.8125H30.4688V40.625H41.4062V7.8125Z" stroke="#FC84FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M8.59375 40.625V26.5625H19.5312" stroke="#FC84FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
