@@ -234,13 +234,15 @@ animation: spin 5s linear infinite;
 
 .gamenew{
     position: absolute;
-    left: -96px;
-    top: 275px;
+    left: -5px;
+    top: 308px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     gap: 10px;
+    color:#ffffff;
+    animation: antispin 5s linear infinite;
 }
 .Marketplace{
 
@@ -252,17 +254,21 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 gap: 10px;
+color:#ffffff;
+animation: antispin 5s linear infinite;
 }
 .finityskill{
 
 position: absolute;
-left: -84px;
+left: -101px;
 top: -75px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 text-align: center;
 gap: 10px;
+color: #ffffff;
+animation: antispin 5s linear infinite;
 }
 .token{
 
@@ -274,6 +280,8 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 gap: 10px;
+color:#ffffff;
+animation: antispin 5s linear infinite;
 }
 .pay{
 
@@ -285,17 +293,21 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 gap: 10px;
+color:#ffffff;
+animation: antispin 5s linear infinite;
 }
 .peoplex{
 
 position: absolute;
-left: 129px;
+left: 183px;
 top: 336px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 text-align: center;
 gap: 10px;
+color:#ffffff;
+animation: antispin 5s linear infinite;
 }
 .fund{
     width:100px;
@@ -308,13 +320,24 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 gap: 10px;
+color:#ffffff;
+animation: antispin 5s linear infinite;
 }
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+  @keyframes antispin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(-360deg); }
+  }
+  @media screen and (max-width: 1440px) {
+    .planets{
+        right: 300px;
+        
 
-
+    }
+  }
 
 
 
