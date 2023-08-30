@@ -829,10 +829,10 @@ display: none;
         display: block;
     }
 }
-
+/* 
 line-height: 140%; 
 justify-content: center;
-}
+} */
 .oval{
     display: flex;
     position: absolute;
@@ -882,6 +882,109 @@ flex-direction: column-reverse;
 .none{
     display: none;
 }
+.hands{
+    /* background-image: url(img/2.png); */
+   
+    padding-left: 500px;
+    padding-top: 500px;
+    mix-blend-mode: multiply;
+}
+.hands2{
+    transform: rotate(101.789deg);
+    /* background-image: url(img/10.png); */
+    width: 524px;
+   padding-left: 4750px;
+   height: 524px;
+   position: relative;
+   bottom: 2900px;
+    mix-blend-mode: multiply;
+}
+.photo{
+    /* fill: var(--accent-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%));
+    opacity: 0.5; */
+    filter: blur(10px);
+    bottom: 1600px;
+    position: relative;
+
+}
+.photo2{
+     /* fill: var(--accent-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%)); */
+  filter: blur(100px);  
+    padding-left: 1900px;
+    position: relative;
+    bottom: 2200px;
+}
+.photo3{
+    /* fill: var(--accent-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%)); */
+/* opacity: 0.5; */
+filter: blur(10px);
+   left: 40px;
+    position: relative;
+    bottom: 2450px;
+
+}
+.photo4{
+    /* fill: var(--accent-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%)); */
+/* opacity: 0.5; */
+filter: blur(100px);
+   
+    position: relative;
+    bottom: 3200px;
+    left: 600px;
+}
+.photo5{
+    /* fill: var(--accent-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%)); */
+filter: blur(100px);
+   
+    position: relative;
+    bottom: 3980px;
+    left: 1650px;
+}
+.photo6{
+    /* fill: var(--accent-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%)); */
+/* opacity: 0.5; */
+filter: blur(100px);
+   
+    position: relative;
+    bottom: 3680px;
+    left: 2100px;
+}
+.photo7{
+    /* fill: var(--accent-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%)); */
+/* opacity: 0.5; */
+filter: blur(100px);
+   
+    position: relative;
+    bottom: 4980px;
+    width: 460px;
+height: 494px;
+flex-shrink: 0;
+
+}
+.photo8{
+    /* fill: var(--accent-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%)); */
+/* opacity: 0.5; */
+filter: blur(100px);
+    position: relative;
+    bottom: 3100px;
+    width: 460px;
+    left: 2100px;
+height: 494px;
+flex-shrink: 0;
+
+}
+.photo9{
+    /* fill: var(--accent-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%)); */
+/* opacity: 0.5; */
+filter: blur(100px);
+    position: relative;
+    bottom: 4100px;
+    width: 460px;
+height: 494px;
+flex-shrink: 0;
+
+}
+
 
 
 
