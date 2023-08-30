@@ -935,6 +935,8 @@ border-radius: 284px;
 border: 39px solid #151D25;
 left: 1035px;
 bottom: 165px;
+animation: spin 5s linear infinite;
+
 }
 .ovaltwo{
     display: flex;
@@ -946,23 +948,77 @@ border-radius: 494px;
 border: 5px solid #151D25;
 left: 970px;
 bottom: 90px;
+animation: spin 5s linear infinite;
+
+
 }
-.games{
+
+.gamenew{
+    position: absolute;
+    left: -5px;
+    top: 308px;
     display: flex;
-    margin-left: -148px;
-    padding-top: 163px;
-    color: #FFF;
-text-align: center;
-font-family: Gilroy;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; 
-flex-direction: column-reverse;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    color:#ffffff;
+    animation: antispin 5s linear infinite;
 }
+.Marketplace{
 
+position: absolute;
+left: -148px;
+top: 147px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
+color:#ffffff;
+animation: antispin 5s linear infinite;
+}
+.finityskill{
 
+position: absolute;
+left: -101px;
+top: -75px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
+color: #ffffff;
+animation: antispin 5s linear infinite;
+}
+.token{
 
+position: absolute;
+left: 133px;
+top: -141px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
+color:#ffffff;
+animation: antispin 5s linear infinite;
+}
+.pay{
+
+ 
+position: absolute;
+left: 325px;
+top: -29px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
+color:#ffffff;
+animation: antispin 5s linear infinite;
+}
+.peoplex{
 
 .activelink{
     color: #54D6FF;
@@ -976,9 +1032,48 @@ flex-direction: column-reverse;
 
 
 
+ 
 
+position: absolute;
+left: 183px;
+top: 336px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
+color:#ffffff;
+animation: antispin 5s linear infinite;
+}
+.fund{
+    width:100px;
+     height:129px;
+position: absolute;
+left: 321px;
+top: 183px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
+color:#ffffff;
+animation: antispin 5s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  @keyframes antispin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(-360deg); }
+  }
+  @media screen and (max-width: 1440px) {
+    .planets{
+        right: 300px;
+        
 
-
+    }
+  }
 
 
 
