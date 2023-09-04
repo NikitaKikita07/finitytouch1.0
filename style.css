@@ -7,6 +7,10 @@ body{
     overflow-x: hidden;
 }
 
+.overflow_y_hidden{
+    overflow-y: hidden;
+}
+
 
 
 /* languages */
@@ -72,6 +76,8 @@ body{
     background: #0F1113;
     display: flex;
     vertical-align: center;
+    position: relative;
+    z-index: 100;
 }
 .linksbox{
     width: 330px;
@@ -171,7 +177,6 @@ h1{
     background: rgba(0, 0, 0, 0.98);
     z-index: 100;
 }
-
 .langchoose2{
     position: absolute;
     right: 3%;
@@ -337,6 +342,41 @@ h1{
     top: 343px;
     right: 1px;
 }
+.vector4{
+    width: 254px;
+    height: 254px;
+    position: absolute;
+    top: -14px;
+    left: 101px;
+}
+.vector5{
+    width: 384px;
+    height: 384px;
+    position: absolute;
+    top: 69px;
+    right: -98px;
+}
+.vector6{
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    top: 285px;
+    left: 414px;
+}
+.vector7{
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 321px;
+    right: 492px;
+}
+.vector8{
+    width: 329px;
+    height: 329px;
+    position: absolute;
+    top: 350px;
+    right: -168px;
+}
 @media screen and (max-width: 1500px) {
     .vector1{
         width: calc(160px - (160px / 100 * 20));
@@ -350,7 +390,59 @@ h1{
         width: calc(566px - (566px / 100 * 20));
         height: calc(276px - (276px / 100 * 20));
     }
+    .vector4{
+        left: -50px;
+    }
+    .vector6{
+        left: 214px;
+    }
+    .vector7{
+        right: 350px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .vector1{
+        top: 532px;
+    }
+    .vector2{
+        transform: rotate(-30deg);
+        top: 638px;
+        left: -150px;
+    }
+    .vector3{
+        transform: rotate(-30deg);
+        top: 200px;
+        right: -80px;
+    }
 
+}
+@media screen and (max-width: 1120px){
+    .vector2{
+        width: calc(672px - (672px / 100 * 30));
+        height: calc(356px - (356px / 100 * 30));
+        top: 700px;
+    }
+    .vector3{
+        width: calc(566px - (566px / 100 * 30));
+        height: calc(276px - (276px / 100 * 30));
+        top: 250px;
+    }
+    .vector6, .vector7{
+        display: none;
+    }
+    .vector4{
+        top: 227px;
+        left: -75px;
+    }
+    .vector5{
+        top: -90px;
+        right: -90px;
+    }
+}
+@media screen and (max-width: 770px){
+    .vector2, .vector3, .vector4, .vector5{
+        display: none;
+    }
 }
 /* asdasdasd */
 body{
@@ -789,7 +881,7 @@ line-height: 140%;
 }
 .planets{
     position: relative;
-    top: 208px;
+    top: 40px;
     display: block;
 }
 .planex{
@@ -879,6 +971,8 @@ border-radius: 284px;
 border: 39px solid #151D25;
 left: 1035px;
 bottom: 165px;
+animation: spin 5s linear infinite;
+
 }
 .ovaltwo{
     display: flex;
@@ -890,25 +984,88 @@ border-radius: 494px;
 border: 5px solid #151D25;
 left: 970px;
 bottom: 90px;
+animation: spin 5s linear infinite;
+
+
 }
-.games{
+
+.gamenew{
+    position: absolute;
+    left: -5px;
+    top: 308px;
     display: flex;
-    margin-left: -148px;
-    padding-top: 163px;
-    color: #FFF;
-text-align: center;
-font-family: Gilroy;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; 
-flex-direction: column-reverse;
-
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    color:#ffffff;
+    animation: antispin 5s linear infinite;
 }
+.Marketplace{
 
+position: absolute;
+left: -148px;
+top: 147px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
+color:#ffffff;
+animation: antispin 5s linear infinite;
+}
+.finityskill{
 
+position: absolute;
+left: -101px;
+top: -75px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
+color: #ffffff;
+animation: antispin 5s linear infinite;
+}
+.token{
 
+position: absolute;
+left: 133px;
+top: -141px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
+color:#ffffff;
+animation: antispin 5s linear infinite;
+}
+.pay{
 
+ 
+position: absolute;
+left: 325px;
+top: -29px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
+color:#ffffff;
+animation: antispin 5s linear infinite;
+}
+.peoplex{
+    position: absolute;
+    left: 183px;
+    top: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    color:#ffffff;
+    animation: antispin 5s linear infinite;
+}
 .activelink{
     color: #54D6FF;
 }
@@ -921,9 +1078,39 @@ flex-direction: column-reverse;
 
 
 
+ 
 
 
 
+.fund{
+    width:100px;
+     height:129px;
+position: absolute;
+left: 321px;
+top: 183px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 10px;
+color:#ffffff;
+animation: antispin 5s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  @keyframes antispin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(-360deg); }
+  }
+  @media screen and (max-width: 1440px) {
+    .planets{
+        right: 300px;
+        
+
+    }
+  }
 
 
 
