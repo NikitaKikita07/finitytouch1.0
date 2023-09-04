@@ -899,18 +899,11 @@ font-style: normal;
 font-weight: 500;
 
 line-height: 140%; /* 22.4px */
-display: none;
 }
 .group{
     display: flex;
     justify-content: space-between;
 }
-/* .img_down:hover .drop_text{
-    display: block;
-}
-.img_down:hover .center_2_li_1, .center_2_li_2{
-    height: 122px;
-} */
 .block{
     display: block;
 }
@@ -951,16 +944,7 @@ display: none;
         display: none;
     }
 }
-/* @media (max-width:720px){
-    .center_div{
-        width: 90%;
-        height: 215px;
-    }
-} */
-/* 
-line-height: 140%; 
-justify-content: center;
-} */
+
 .oval{
     display: flex;
     position: absolute;
