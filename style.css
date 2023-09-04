@@ -179,16 +179,118 @@ body{
     border-radius: 17px;
 background: var(--grad-2, linear-gradient(180deg, #FC84FF 0%, #54D1FA 100%));
 align-items: center;
+position: relative;
 }
-.krugi{
+.krug{
     width: 44px;
     height: 44px;
-    
-    border-radius: 50%;
     position: absolute;
-    left: 1098px;
-    fill: #0F1113;
-stroke-width: 3px;
-stroke: #F18AFF;
+    border-radius: 50%;
+    
+    right: -18.5px;
+background-color: #F18AFF;
 }
-
+#krug1{
+    top: 220px;
+    background-color: #D596FE;
+}
+#krug2{
+    top: 463px;
+    background-color: #B2A6FD;
+}
+#krug3{
+    top: 740px;
+    background-color: #8EB7FC;
+}
+#krug4{
+    top: 997px;
+    background-color: #7AC0FB;
+}
+#krug_in{
+background-color: black;
+width: 38px;
+height: 38px;
+z-index: 1;
+right: -16px;
+top: 3px;
+}
+#krug_in4{
+    background-color: black;
+    width: 38px;
+    height: 38px;
+    z-index: 1;
+    right: -16px;
+    top: 743px;
+    }
+#krug_in1{
+    background-color: black;
+    width: 38px;
+    height: 38px;
+    z-index: 1;
+    right: -16px;
+    top: 223px;
+}
+#krug_in5{
+    background-color: black;
+    width: 38px;
+    height: 38px;
+    z-index: 1;
+    right: -16px;
+    top: 1000px;
+}
+#krug_in2{
+    background-color: black;
+    width: 38px;
+    height: 38px;
+    z-index: 1;
+    right: -16px;
+    top: 466px;
+}
+.text_in_krug{
+    color: white;
+   bottom: -12px;
+   left: 14px;
+    font-size: 20px;
+    position: absolute;
+}
+.text_spring{
+    width: 230px;
+    height: 175px;
+    background-color: black;
+    margin-left: 37px;
+    position: absolute;
+    margin-top: 15px;
+}
+.months_spring{
+    font-size: 20px;
+    color: #F18AFF;
+}
+.mini_text_{
+    font-size: 16px;
+    color: #5B6978;
+    margin-top: 5px;
+}
+.text_summer{
+    width: 230px;
+    height: 175px;
+    background-color: black;
+    margin-left: 37px;
+    position: absolute;
+    margin-top: 240px;
+}
+.months_summer{
+    font-size: 20px;
+    color: #D596FE;
+}
+.text_autumn{
+    width: 330px;
+    height: 275px;
+    background-color: black;
+    margin-left: 37px;
+    position: absolute;
+    margin-top: 476px;
+}
+.months_autumn{
+    font-size: 20px;
+    color: #B2A6FD;
+}
