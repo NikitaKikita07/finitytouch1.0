@@ -461,7 +461,6 @@ body ul{
     gap: 20px;
     margin-right: 20px;
     flex-wrap: wrap;
-    margin-top: 20px;
 }
 .white_text_b{
     color: #FFF;
@@ -493,7 +492,6 @@ body ul{
 .partner_ul{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 .gori{
     height: 2px;
@@ -585,27 +583,25 @@ margin-bottom: 10px;
 }
 .bittext{
     color: var(--main-white, #FFF);
-    text-align: right;
-    font-family: Gilroy;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+text-align: right;
+
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+
+line-height: normal;
 }
 .image_center_small{
     width: 24px;
-    height: 24px;
-    fill: #4F6173;
+height: 24px;
+fill: #4F6173;
     margin-top: 43px;
     margin-left: 17px;
-}
-.flex{
-    display: flex;
 }
 .center_1_ul{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 .center_1_li{
     margin-left: 30px;
@@ -881,7 +877,7 @@ line-height: 140%;
 }
 .planets{
     position: relative;
-    top: 40px;
+    top: 208px;
     display: block;
 }
 .planex{
@@ -915,48 +911,16 @@ display: none;
     display: block;
 }
 .heighter{
-    height: 4.7%;
+    height: 122px;
 }
 .img_up{
     background-image: url(img/CaretUp.svg);
 }
-.second_bottom_2{
-    text-align: center;
-    display: none;
-}
-.second_bottom_2 p{
-    color: var(--main-white, #FFF);
-    font-family: Gilroy;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-.second_bottom_2 img{
-    margin-left: 30px;
-}
-.logo_bottom_2{
-    justify-content: center;
-    margin-top: 91.43px;
-}
-
 @media (max-width:1000px){
     .center_div{
         display: block;
     }
-    .second_bottom_2{
-        display: block;
-    }
-    .bottom_2{
-        display: none;
-    }
 }
-/* @media (max-width:720px){
-    .center_div{
-        width: 90%;
-        height: 215px;
-    }
-} */
 /* 
 line-height: 140%; 
 justify-content: center;
@@ -971,8 +935,6 @@ border-radius: 284px;
 border: 39px solid #151D25;
 left: 1035px;
 bottom: 165px;
-animation: spin 5s linear infinite;
-
 }
 .ovaltwo{
     display: flex;
@@ -984,88 +946,91 @@ border-radius: 494px;
 border: 5px solid #151D25;
 left: 970px;
 bottom: 90px;
-animation: spin 5s linear infinite;
-
-
 }
-
-.gamenew{
-    position: absolute;
-    left: -5px;
-    top: 308px;
+.games{
     display: flex;
-    flex-direction: column;
+    margin-left: -148px;
+    padding-top: 163px;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; 
+flex-direction: column-reverse;
+}
+
+
+
+.comingsoon{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(100deg, #FC84FF 7.67%, #54D1FA 92.33%);
+    display: flex;
     justify-content: center;
-    text-align: center;
-    gap: 10px;
-    color:#ffffff;
-    animation: antispin 5s linear infinite;
-}
-.Marketplace{
-
-position: absolute;
-left: -148px;
-top: 147px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-gap: 10px;
-color:#ffffff;
-animation: antispin 5s linear infinite;
-}
-.finityskill{
-
-position: absolute;
-left: -101px;
-top: -75px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-gap: 10px;
-color: #ffffff;
-animation: antispin 5s linear infinite;
+    align-items: center;
 }
 .token{
-
-position: absolute;
-left: 133px;
-top: -141px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-gap: 10px;
-color:#ffffff;
-animation: antispin 5s linear infinite;
-}
-.pay{
-
- 
-position: absolute;
-left: 325px;
-top: -29px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-gap: 10px;
-color:#ffffff;
-animation: antispin 5s linear infinite;
-}
-.peoplex{
-    position: absolute;
-    left: 183px;
-    top: 336px;
+    height: 940px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    gap: 10px;
-    color:#ffffff;
-    animation: antispin 5s linear infinite;
+    align-items: center;
 }
+.token_about{
+    width: 450px;
+    height: 380px;
+    position: relative;
+}
+.token_about_header{
+    width: 380px;
+    height: 77px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(104deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 0; 
+}
+.token_about p{
+    width: 450px;
+    height: 170px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    color: var(--main-white, #FFF);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+}
+.token_about p span{
+    color: #C1ABFF;
+}
+.token_about_litepaper{
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    border-radius: 10px;
+    border: 3px solid var(--Gradient-1, #FC84FF);
+    box-shadow: 0px 2px 12px 0px rgba(148, 180, 252, 0.37);
+    background: linear-gradient(104deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+
+/* КИНУТЬ В НИЗ КОДА! */
 .activelink{
     color: #54D6FF;
 }
@@ -1078,39 +1043,9 @@ animation: antispin 5s linear infinite;
 
 
 
- 
 
 
 
-.fund{
-    width:100px;
-     height:129px;
-position: absolute;
-left: 321px;
-top: 183px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-gap: 10px;
-color:#ffffff;
-animation: antispin 5s linear infinite;
-}
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  @keyframes antispin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(-360deg); }
-  }
-  @media screen and (max-width: 1440px) {
-    .planets{
-        right: 300px;
-        
-
-    }
-  }
 
 
 
