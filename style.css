@@ -549,6 +549,10 @@ margin-top: 77px;
     color: #4F6173;
 text-align: center;
 }
+.bodycentral{
+    width: 1536px;
+    margin: auto;
+}
 
 .hatblock{
     display: inline-flex;
@@ -566,7 +570,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 140%; 
 margin-left: 595px;
-margin-top: -448px;
+margin-top: -388px;
 }
 .studbtm{
     color: var(--main-white, #FFF);
@@ -769,7 +773,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 140%; 
 margin-left: 595px;
-margin-top: -448px;
+margin-top: -378px;
 }
 .gamerf{
 
@@ -866,14 +870,25 @@ margin-left: 11px;
         margin-top: 200px;
     }
     .tradenft{
-        color: #ffffff;
+        color: #C1ABFF;
     font-family: Gilroy;
     font-size: 40px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 140%; 
     margin-left: 595px;
     margin-top: -448px;
+    
+    }
+    .nfttext{
+        color: var(--main-white, #FFF);
+        font-family: Gilroy; 
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+        margin-left: 595px;
+        
     }
     .nftbtn{
         width: 250px;
@@ -882,7 +897,9 @@ margin-left: 11px;
     border-radius: 10px;
     margin-top: 30px;
     background: var(--2-g, linear-gradient(120deg, #BDB2FF 0%, #CE8FFF 100%));
+    margin-left: 595px;
     }
+
     .finityblock{
         margin-top: 470px;
         margin-left: 120px;
@@ -924,18 +941,11 @@ font-style: normal;
 font-weight: 500;
 
 line-height: 140%; /* 22.4px */
-display: none;
 }
 .group{
     display: flex;
     justify-content: space-between;
 }
-/* .img_down:hover .drop_text{
-    display: block;
-}
-.img_down:hover .center_2_li_1, .center_2_li_2{
-    height: 122px;
-} */
 .block{
     display: block;
 }
@@ -976,16 +986,7 @@ display: none;
         display: none;
     }
 }
-/* @media (max-width:720px){
-    .center_div{
-        width: 90%;
-        height: 215px;
-    }
-} */
-/* 
-line-height: 140%; 
-justify-content: center;
-} */
+
 .oval{
     display: flex;
     position: absolute;
@@ -1136,7 +1137,12 @@ animation: antispin 5s linear infinite;
 
     }
   }
+  /* @media screen and (max-width: 1920px) {
+    .bodycentral{
+        margin-left: 1705px;
+    }
 
+  } */
 
 
 
