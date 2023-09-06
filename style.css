@@ -3,7 +3,7 @@
     src: url(fonts/Gilroy-Medium.ttf);
 }
 @font-face {
-    font-family: 'Gilroy_normal';
+    font-family: 'Gilroy_bold';
     src: url(fonts/Gilroy-Bold.ttf);
 }
 ul[class],
@@ -537,7 +537,6 @@ body ul{
 }
 .white_text_small{
     color: #FFF;
-text-align: center;
 font-family: Gilroy;
 font-size: 16px;
 font-style: normal;
@@ -818,13 +817,6 @@ margin-top: 25px;
 .third_ul{
     margin-top: 100px;
 }
-.color{
-font-weight: 700;
-background: var(--gradient-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
 .bottom_2{
     height: 338.761px;
     flex-shrink: 0;
@@ -846,6 +838,28 @@ font-weight: 600;
 line-height: normal;
 margin-left: 11px;
 }
+.boxes{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.box{
+    width: 368px;
+    height: 253px;
+}
+#first{
+    border-radius: 10px;
+    border: 1px solid #5B6978;
+    
+}
+.color{
+font-weight: 700;
+background: var(--gradient-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
 .drop_text{
     color: #4F6173;
     line-height: 140%; 
@@ -1092,15 +1106,6 @@ animation: antispin 5s linear infinite;
     color:#ffffff;
     animation: antispin 5s linear infinite;
 }
-.activelink{
-    color: #54D6FF;
-}
-.buy{
-    color: #FC84FF;
-}
-.none{
-    display: none;
-}
 
 
 
@@ -1145,7 +1150,16 @@ animation: antispin 5s linear infinite;
   } */
 
 
-
+/* КИНУТЬ ВНИЗ!!! */
+.activelink{
+    color: #54D6FF;
+}
+.buy{
+    color: #FC84FF;
+}
+.none{
+    display: none;
+}
 
 
 
