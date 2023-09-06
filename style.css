@@ -915,7 +915,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 
-line-height: 140%; /* 22.4px */
+line-height: 140%;
 }
 .group{
     display: flex;
@@ -1106,12 +1106,66 @@ animation: antispin 5s linear infinite;
     100% { transform: rotate(-360deg); }
   }
   @media screen and (max-width: 1440px) {
+    .bodycentral{
+            width: 1100px;
+            height: 3600px;
+    }
     .planets{
-        right: 300px;
-        
-
+        right: 400px;
+        width: 400px;
+        height: 500px;
+        top: -441px;
+    }
+    .finityblock{
+        width: 300px;
+        height: 300px;
+        margin-left: 70px;
+    }
+    .planex{
+        left: 1128px;
+    bottom: 245px;
+    }
+    .oval{
+        width: 200px;
+        height: 200px;
+    }
+    .ovaltwo{
+        width: 390px;
+        height: 390px;
+    }
+    .gamenew{
+        left: 61px;
+        top: 247px;
+    }
+    .pay{
+        left: 239px;
+    }
+    .peoplex{
+        left: 239px;
+        top: 123px;    
+    }
+    .fund{
+        left: 136px;
+        top: 183px;    
+    }
+    .token{
+        left: 69px;
+    top: -133px;
     }
   }
+  @media screen and (max-width: 500px) {
+    .hat{
+        margin-left: -58px;
+    }
+    .study{
+        margin-left: 7px;
+        margin-bottom: -270px;
+        margin-top: -33px;
+    }
+
+  }
+    
+  
   /* @media screen and (max-width: 1920px) {
     .bodycentral{
         margin-left: 1705px;
