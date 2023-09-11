@@ -1162,7 +1162,19 @@ animation: antispin 5s linear infinite;
         margin-bottom: -270px;
         margin-top: -33px;
     }
-
+    .finitypay{
+        margin-left: -92px;
+    }
+    .bank{
+        margin-left: -39px;
+    }
+    .playgames{
+        margin-left: -57px;
+    }
+    .hat{
+        width: 380px;
+        height: 433px;  
+    }
   }
     
   
