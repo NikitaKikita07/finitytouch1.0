@@ -858,14 +858,13 @@ margin-left: 11px;
     align-items: center;
     margin-top: 20px;
     width: 13.8%;
-    margin: auto;
+
 }
 .boxes_under_group{
     display: flex;
+    justify-content: center;
 }
-.boxes_under_5{
-    display: inline-block;
-}
+
 .boxes_under p{
     color: #ffffff;
 }
@@ -902,6 +901,14 @@ margin-left: 11px;
 #third{
     border-radius: 10px;
     border: 1px solid #5B6978;
+}
+.line_boxes_under{
+    width: 70px;
+    height: 0;
+    margin-top: 80px;
+}
+.rotate{
+    transform: rotate(90deg);
 }
 .color{
 font-weight: 700;
