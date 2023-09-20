@@ -525,9 +525,23 @@ margin-top: 77px;
 text-align: center;
 }
 .bodycentral{
+<<<<<<< HEAD
     width: 1559px;
+=======
+    width: 1087px;
+>>>>>>> accea1efd53d78f00422b4177d4221b617bb0938
     margin: auto;
 }
+.hat{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 40px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
 
 .hatblock{
     width: 100%;
