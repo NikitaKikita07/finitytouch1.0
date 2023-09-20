@@ -6,13 +6,9 @@ body{
     -webkit-user-select: none;
     overflow-x: hidden;
 }
-
 .overflow_y_hidden{
     overflow-y: hidden;
 }
-
-
-
 /* languages */
 .languages, .languages2{
     width: 60px;
@@ -65,9 +61,6 @@ body{
 .ru:hover, .ua:hover, .en:hover{
     cursor: pointer;
 }
-
-
-
 /* default menu */
 .topmenu{
     width: 100%;
@@ -142,9 +135,6 @@ h1{
         right: 3%;
     }
 }
-
-
-
 /* drop-down menu */
 .dropmenubutton, .dropmenu, .langchoose2{
     display: none;
@@ -202,8 +192,6 @@ h1{
     height: 2px;
     background-color: rgba(94, 94, 94, 1)
 }
-
-
 .dropmenu-unactive{
     margin-left: -100%;
     transition: all 0.3s linear;
@@ -216,7 +204,6 @@ h1{
     transform: rotate(180deg);
     transition: all 0.3s linear;
 }
-
 .dropmenubutton-anim{
     animation: 0.3s linear;
     animation-name: dba;
@@ -227,8 +214,6 @@ h1{
     animation-name: dbar;
     transform-origin: center;
 }
-
-
 @media screen and (max-width: 1000px){
     .toprightpart, .topmenulink{
         display: none;
@@ -256,9 +241,6 @@ h1{
         transform: rotate(-180deg);
     }
 }
-
-
-
 /* Finity Touch section */
 .finitytouch{
     height: 980px;
@@ -318,7 +300,6 @@ h1{
     border: 3px solid #FC84FF;
     border-radius: 10px;
 }
-
 /* Vectors */
 .vector1{
     width: 160px;
@@ -414,7 +395,6 @@ h1{
         top: 200px;
         right: -80px;
     }
-
 }
 @media screen and (max-width: 1120px){
     .vector2{
@@ -444,7 +424,6 @@ h1{
         display: none;
     }
 }
-/* asdasdasd */
 body{
     background: #0F1113;
 }
@@ -538,8 +517,6 @@ text-align: center;
     margin: auto;
     justify-content: space-evenly;
 }
-
-
 .hatblock{
     width: 100%;
     display: inline-flex;
@@ -578,7 +555,6 @@ margin-top: 30px;
 background: var(--2-g, linear-gradient(120deg, #BDB2FF 0%, #CE8FFF 100%));
 }
 .bitcoins{
-
 width: 1100px;
 height: 131px;
 margin-top: 210px;
@@ -587,8 +563,6 @@ display: flex;
 .bitimg{
     margin-left: 514px;
 display: flex;
-
-
 }
 .finitypay{
     width: 480px;
@@ -638,7 +612,6 @@ margin-bottom: 10px;
 #gori_small{
     width: 47%;
 }
-
 .center_2_p_white{
     color: #FFF;
     font-family: Gilroy;
@@ -699,7 +672,6 @@ margin-bottom: 10px;
     flex-shrink: 0;
 }
 .bitbutton{
-
     width: 250px;
 height: 60px;
 flex-shrink: 0;
@@ -742,9 +714,7 @@ margin-top: 25px;
 }
 .third_li{
     color: #FFF;
-
 }
-
 .bank{
     width: 528px;
 height: 472.481px;
@@ -754,18 +724,7 @@ mix-blend-mode: screen;
 .bankblock{
     margin-top: 200px;
 }
-.grant{
-    color: #C1ABFF;
-font-family: Gilroy;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: 140%; 
-margin-left: 595px;
-margin-top: -378px;
-}
 .gamerf{
-
     width: 1100px;
     height: 131px;
     margin-top: 210px;
@@ -778,26 +737,13 @@ flex-shrink: 0;
 mix-blend-mode: screen;
 margin-left: 494px;
 }
-.playgames{
-    width: 480px;
-    color: #C1ABFF;
-text-align: right;
-font-family: Gilroy;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: 140%; 
-margin-bottom: 10px;
-}
 .playtext{
     color: var(--main-white, #FFF);
 text-align: right;
-
 font-family: Gilroy;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-
 line-height: normal;
 margin-top: 25px;
 }
@@ -824,7 +770,6 @@ background-clip: text;
 .other{
     display: flex;
     margin-top: 62px;
-
 }
 .first_li p{
     color: var(--main-white, #FFF);
@@ -847,8 +792,6 @@ margin-left: 11px;
     border-radius: 10px;
     background: var(--2-g, linear-gradient(120deg, #BDB2FF 0%, #CE8FFF 100%));
     }
-
-
     .buynft{
         width: 528px;
     height: 472.481px;
@@ -857,17 +800,6 @@ margin-left: 11px;
     }
     .nftblock{
         margin-top: 200px;
-    }
-    .tradenft{
-        color: #C1ABFF;
-    font-family: Gilroy;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 140%; 
-    margin-left: 595px;
-    margin-top: -448px;
-    
     }
     .nfttext{
         color: var(--main-white, #FFF);
@@ -888,7 +820,6 @@ margin-left: 11px;
     background: var(--2-g, linear-gradient(120deg, #BDB2FF 0%, #CE8FFF 100%));
     margin-left: 595px;
     }
-
     .finityblock{
         margin-top: 470px;
         margin-left: 120px;
@@ -923,12 +854,10 @@ left: 1169px;
 bottom: 277px;
 color: #FFF;
 text-align: center;
-
 font-family: Gilroy;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-
 line-height: 140%; /* 22.4px */
 }
 .group{
@@ -963,7 +892,6 @@ line-height: 140%; /* 22.4px */
     justify-content: center;
     margin-top: 91.43px;
 }
-
 @media (max-width:1000px){
     .center_div{
         display: block;
@@ -975,7 +903,6 @@ line-height: 140%; /* 22.4px */
         display: none;
     }
 }
-
 .oval{
     display: flex;
     position: absolute;
@@ -987,7 +914,6 @@ border: 39px solid #151D25;
 left: 1035px;
 bottom: 165px;
 animation: spin 5s linear infinite;
-
 }
 .ovaltwo{
     display: flex;
@@ -1000,10 +926,7 @@ border: 5px solid #151D25;
 left: 970px;
 bottom: 90px;
 animation: spin 5s linear infinite;
-
-
 }
-
 .gamenew{
     position: absolute;
     left: -5px;
@@ -1017,7 +940,6 @@ animation: spin 5s linear infinite;
     animation: antispin 5s linear infinite;
 }
 .Marketplace{
-
 position: absolute;
 left: -148px;
 top: 147px;
@@ -1030,7 +952,6 @@ color:#ffffff;
 animation: antispin 5s linear infinite;
 }
 .finityskill{
-
 position: absolute;
 left: -101px;
 top: -75px;
@@ -1043,7 +964,6 @@ color: #ffffff;
 animation: antispin 5s linear infinite;
 }
 .token{
-
 position: absolute;
 left: 133px;
 top: -141px;
@@ -1056,8 +976,6 @@ color:#ffffff;
 animation: antispin 5s linear infinite;
 }
 .pay{
-
- 
 position: absolute;
 left: 325px;
 top: -29px;
@@ -1090,13 +1008,6 @@ animation: antispin 5s linear infinite;
 .none{
     display: none;
 }
-
-
-
- 
-
-
-
 .fund{
     width:100px;
      height:129px;
@@ -1122,8 +1033,6 @@ animation: antispin 5s linear infinite;
   @media screen and (max-width: 1440px) {
     .planets{
         right: 300px;
-        
-
     }
   }
   @media screen and (max-width: 2540px) {
@@ -1131,15 +1040,3 @@ animation: antispin 5s linear infinite;
         margin-left: 370px;
     }
   }
-  /* @media screen and (max-width: 1920px) {
-    .bodycentral{
-        margin-left: 1705px;
-    }
-
-  } */
-
-
-
-
-
-
