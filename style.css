@@ -525,9 +525,19 @@ margin-top: 77px;
 text-align: center;
 }
 .bodycentral{
-    width: 1536px;
+    width: 1087px;
     margin: auto;
 }
+.hat{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 40px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
 
 .hatblock{
     display: inline-flex;
