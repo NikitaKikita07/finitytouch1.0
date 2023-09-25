@@ -1015,6 +1015,7 @@ border: 39px solid #151D25;
 left: 1035px;
 bottom: 165px;
 animation: spin 5s linear infinite;
+/* animation: spin 5s  cubic-bezier(0.35, -0.15, 0.47, 1.12) infinite; */
 }
 .ovaltwo{
     display: flex;
