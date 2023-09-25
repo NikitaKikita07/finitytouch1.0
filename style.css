@@ -941,8 +941,10 @@ font-weight: 500;
 line-height: 140%;
 }
 .planets{
+    width: 500px;
+    height: 500px;
     position: relative;
-    top: 40px;
+    top: -390px;
     display: block;
 }
 .planex{
@@ -1141,7 +1143,11 @@ animation: antispin 5s linear infinite;
   }
   @media screen and (max-width: 1440px) {
     .planets{
-        right: 300px;
+        right: 735px;
+    }
+    .finityblock{
+        margin-top: 470px;
+        margin-left: -329px;
     }
   }
   @media screen and (max-width: 2540px) {
